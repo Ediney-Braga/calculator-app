@@ -15,6 +15,10 @@ body{
     justify-content: center;
 }
 
+#container{
+    width: 500px;
+}
+
 header{
     display: flex;
     align-items: flex-end;
@@ -45,9 +49,7 @@ input[type="radio"]:checked{
     background-color: hsl(25, 98%, 40%);
 }
 
-#container{
-    width: 500px;
-}
+
 
 #theme{
     display: flex;
@@ -102,6 +104,8 @@ input[type="radio"]:checked{
     color:#fff;
 }
 
+/* ---------- bodyCalc ---------- */
+
 #calcBody{
     height: 430px;
     width: 100%;
@@ -148,3 +152,19 @@ button:hover{
     background-color: hsl(6, 63%, 50%);
     color: white;
 }   
+
+@media only screen and (max-width: 500px) {
+    body{
+        padding: 10px 20px;
+    }
+
+    #calcBody{
+        height: 390px;
+        padding: 10px;
+    }
+
+    .lineButtons{
+        gap: 10px;
+    }
+    
+}
