@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Calculator app</title>
+    <link type="icon/image" rel="icon" href="./images/favicon-32x32.png">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+</head>
+<body onload="theme1">
+    <div id="container">
+        <header>
+            <h1>calc</h1>
+            <div id="theme">
+                <div id="right">
+                    <div id="labelTheme">
+                        <label for="theme1">1</label>
+                        <label for="theme2">2</label>
+                        <label for="theme3">3</label>
+                    </div>
+                    <div id="inputTheme">
+                        <p>THEME</p>
+                        <div>
+                            <input type="radio" name="theme" id="theme1" checked>
+                            <input type="radio" name="theme" id="theme2" >
+                            <input type="radio" name="theme" id="theme3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        
+        <div id="display">
+            <h2></h2>
+        </div>
+        <div id="calcBody">
+            <div class="lineButtons">
+                <button class="buttonCustom">7</button>
+                <button class="buttonCustom">8</button>
+                <button class="buttonCustom">9</button>
+                <button class="blueButton">DEL</button>
+            </div>
+            <div class="lineButtons">
+                <button class="buttonCustom">4</button>
+                <button class="buttonCustom">5</button>
+                <button class="buttonCustom">6</button>
+                <button class="buttonCustom"> + </button>
+            </div>
+            <div class="lineButtons">
+                <button class="buttonCustom">1</button>
+                <button class="buttonCustom">2</button>
+                <button class="buttonCustom">3</button>
+                <button class="buttonCustom">-</button>
+            </div>
+            <div class="lineButtons">
+                <button class="buttonCustom">.</button>
+                <button class="buttonCustom">0</button>
+                <button class="buttonCustom">/</button>
+                <button class="buttonCustom">x</button>
+            </div>
+            <div class="lineButtons">
+                <button class="blueButton">RESET</button>
+                <button class="redButton">=</button>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+    <script src="./theme.js"></script>
+</body>
+</html>
